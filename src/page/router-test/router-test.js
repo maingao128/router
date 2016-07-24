@@ -1,4 +1,4 @@
-import Router from './index';
+import Router from '../../../index';
 
 let router = new Router({
 	usePushState: true,
