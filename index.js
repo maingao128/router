@@ -100,7 +100,7 @@ export default class Router{
 			this.location.hash = fragment.slice(0, 1) === '#' ? fragment : `#${fragment}`;
 		}
 		if(trigger) this.linkUrl();
-	},
+	}
 
 	stop(){
 		let removeListener = window.removeEventListener;
